@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5f4ed43-5af6-4e04-9220-ef173409037d" name="Changes" comment="Second commit">
-      <change afterPath="$PROJECT_DIR$/src/Assignment_6/Q3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_6/Q4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_6/Q5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_6/Q6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_6/Q7_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_6/Q7_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_6/Q7_3.java" afterDir="false" />
+    <list default="true" id="d5f4ed43-5af6-4e04-9220-ef173409037d" name="Changes" comment="final commit">
+      <change afterPath="$PROJECT_DIR$/src/Assignment_6/Q8_1_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_6/Q8_1_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_6/Q8_2_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_6/Q8_2_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_6/Q8_3_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_6/Q8_3_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,9 +49,9 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Q7_3">
-    <configuration name="Q5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_6.Q5" />
+  <component name="RunManager" selected="Application.Q8_3_2">
+    <configuration name="Q8_1_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_6.Q8_1_2" />
       <module name="Java Assignments" />
       <extension name="coverage">
         <pattern>
@@ -64,8 +63,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_6.Q6" />
+    <configuration name="Q8_2_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_6.Q8_2_1" />
       <module name="Java Assignments" />
       <extension name="coverage">
         <pattern>
@@ -77,8 +76,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q7_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_6.Q7_1" />
+    <configuration name="Q8_2_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_6.Q8_2_2" />
       <module name="Java Assignments" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q7_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_6.Q7_2" />
+    <configuration name="Q8_3_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_6.Q8_3_1" />
       <module name="Java Assignments" />
       <extension name="coverage">
         <pattern>
@@ -103,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q7_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_6.Q7_3" />
+    <configuration name="Q8_3_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_6.Q8_3_2" />
       <module name="Java Assignments" />
       <extension name="coverage">
         <pattern>
@@ -118,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Q7_3" />
-        <item itemvalue="Application.Q7_2" />
-        <item itemvalue="Application.Q7_1" />
-        <item itemvalue="Application.Q6" />
-        <item itemvalue="Application.Q5" />
+        <item itemvalue="Application.Q8_3_2" />
+        <item itemvalue="Application.Q8_3_1" />
+        <item itemvalue="Application.Q8_2_2" />
+        <item itemvalue="Application.Q8_2_1" />
+        <item itemvalue="Application.Q8_1_2" />
       </list>
     </recent_temporary>
   </component>
@@ -163,12 +162,20 @@
       <option name="project" value="LOCAL" />
       <updated>1675752828903</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="final commit">
+      <created>1675757048718</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675757048718</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="Second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second commit" />
+    <MESSAGE value="final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="final commit" />
   </component>
 </project>
