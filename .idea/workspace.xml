@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5f4ed43-5af6-4e04-9220-ef173409037d" name="Changes" comment="Final commit with eight question">
-      <change afterPath="$PROJECT_DIR$/src/Assignment_7/Q1.java" afterDir="false" />
+    <list default="true" id="d5f4ed43-5af6-4e04-9220-ef173409037d" name="Changes" comment="Assignment-7 commit-1">
+      <change afterPath="$PROJECT_DIR$/src/Assignment_7/Q2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,21 +44,8 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.Q1 (1)">
+  <component name="RunManager" selected="Application.Q2">
     <configuration name="Q1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_7.Q1" />
-      <module name="Java Assignments" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Assignment_7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q1 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignment_7.Q1" />
       <module name="Java Assignments" />
       <extension name="coverage">
@@ -110,13 +97,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Q2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_7.Q2" />
+      <module name="Java Assignments" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Assignment_7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q2" />
         <item itemvalue="Application.Q1 (1)" />
         <item itemvalue="Application.Q1 (5)" />
         <item itemvalue="Application.Q1 (4)" />
         <item itemvalue="Application.Q1" />
-        <item itemvalue="Application.Q1 (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675760999375</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Assignment-7 commit-1">
+      <created>1675847207912</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675847207912</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -179,6 +186,7 @@
     <MESSAGE value="Second commit" />
     <MESSAGE value="final commit" />
     <MESSAGE value="Final commit with eight question" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final commit with eight question" />
+    <MESSAGE value="Assignment-7 commit-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment-7 commit-1" />
   </component>
 </project>
