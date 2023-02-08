@@ -58,3 +58,11 @@ public class Q4 {
 
     }
 }
+
+
+//Output-
+//Original Array:147345
+//        Duplicate element is:4
+//        Duplicate element index is: 4
+//
+//        New Array is:14735

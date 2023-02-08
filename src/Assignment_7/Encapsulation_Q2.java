@@ -48,3 +48,7 @@ public class Encapsulation_Q2 {
         System.out.println("Result= "+rectangle.getResult());
     }
 }
+
+//Output-
+//        Rectangle{length=5, breadth=10, result=50}
+//        Result= 50

@@ -108,3 +108,39 @@ public class Q1 {
         System.out.println();
     }
 }
+
+//Output-
+//
+//        *******Array as list********
+//        Arrays as list: [[I@776ec8df]
+//
+//        *******Sorted array********
+//        12245699
+//
+//        *******Binary Search*******
+//        4 found at index = 3
+//
+//        *******Array compare*******
+//        1
+//
+//        *******Array Copy*******
+//        [1, 2, 3, 4, 5, 6, 7, 8, 0, 0]
+//
+//        *******Array Copy Range*******
+//        [3, 4, 5]
+//
+//        *******Array Deep Equals*******
+//        false
+//
+//        *******Array Deep Hash Code*******
+//        38475344
+//
+//        *******Array Equals*******
+//        false
+//
+//        *******Array Mismatch*******
+//        2
+//
+//        *******Array to String*******
+//        [1, 2, 3, 4, 5, 6, 7, 8]
+

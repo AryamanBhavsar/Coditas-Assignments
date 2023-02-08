@@ -42,3 +42,18 @@ public class Q5 {
         jagged.add();
     }
 }
+
+//Output-
+//        First Array:
+//        1 2
+//        1 2 3 4
+//        Second Array:
+//        5 6
+//        4 5 6 7
+//        Sum of Arrays
+//        Sum of Array[0][0] is : 6
+//        Sum of Array[0][1] is : 8
+//        Sum of Array[1][0] is : 5
+//        Sum of Array[1][1] is : 7
+//        Sum of Array[1][2] is : 9
+//        Sum of Array[1][3] is : 11

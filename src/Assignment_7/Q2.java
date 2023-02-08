@@ -32,8 +32,15 @@ public class Q2 {
         System.out.println("**********Ascending Order************");
         order.Ascending();
 
+        System.out.println();
         System.out.println("**********Descending Order************");
         order.Descending();
 
     }
 }
+
+//Output-
+//**********Ascending Order************
+//        1235566788
+//**********Descending Order************
+//        8876655321

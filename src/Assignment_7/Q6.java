@@ -32,3 +32,9 @@ public class Q6 {
 
     }
 }
+
+//Output-
+//        Array is:1246436
+//        Enter the index:
+//        4
+//        Element 4 is at index 4
