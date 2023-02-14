@@ -6,6 +6,7 @@ class Testemp extends Manager{
 }
 public class Q4 {
     public static void main(String[] args) {
+
         Employee e1 = new Employee();
         WageEmployee we1 = new WageEmployee();
         SalesPerson sp = new SalesPerson();
