@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5f4ed43-5af6-4e04-9220-ef173409037d" name="Changes" comment="Assignment-9 commit-3">
-      <change afterPath="$PROJECT_DIR$/src/Assignment_10/Q1.java" afterDir="false" />
+    <list default="true" id="d5f4ed43-5af6-4e04-9220-ef173409037d" name="Changes" comment="Assignment-10 commit-1">
+      <change afterPath="$PROJECT_DIR$/src/Assignment_10/Q2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,20 +44,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.Q1">
-    <configuration name="Assignment_9.Q3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_9.Q3" />
-      <module name="Java Assignments" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Assignment_9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Q2">
     <configuration name="Assignment_9.Q4 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignment_9.Q4" />
       <module name="Java Assignments" />
@@ -84,19 +71,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Assignment_9.Q4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_9.Q4" />
-      <module name="Java Assignments" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Assignment_9.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Q1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignment_10.Q1" />
       <module name="Java Assignments" />
@@ -110,13 +84,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Q2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_10.Q2" />
+      <module name="Java Assignments" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Assignment_10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_10.Q2" />
+      <module name="Java Assignments" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Assignment_10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q2" />
+        <item itemvalue="Application.Q2 (1)" />
         <item itemvalue="Application.Q1" />
         <item itemvalue="Application.Assignment_9.Q4 (2)" />
         <item itemvalue="Application.Assignment_9.Q4 (1)" />
-        <item itemvalue="Application.Assignment_9.Q4" />
-        <item itemvalue="Application.Assignment_9.Q3" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676373491967</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Assignment-10 commit-1">
+      <created>1676527187642</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1676527187642</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -291,6 +298,7 @@
     <MESSAGE value="Assignment-8 commit-4" />
     <MESSAGE value="Assignment-9 commit-2" />
     <MESSAGE value="Assignment-9 commit-3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment-9 commit-3" />
+    <MESSAGE value="Assignment-10 commit-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment-10 commit-1" />
   </component>
 </project>
