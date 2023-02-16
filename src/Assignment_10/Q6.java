@@ -2,10 +2,23 @@ package Assignment_10;
 
 class Rectangle implements ShapeInterface{
 
+    int l;
+    int b;
+
+    Rectangle(){
+        int l=0;
+        int b=0;
+    }
+
+    Rectangle(int l,int b){
+        this.l=l;
+        this.b=b;
+    }
+
     int area;
     @Override
-    public void getArea(int a,int b) {
-        area = a*b;
+    public void getArea() {
+        area = l*b;
     }
 
     @Override
@@ -17,10 +30,22 @@ class Rectangle implements ShapeInterface{
 
 class Triangle implements ShapeInterface{
 
+    int l;
+    int b;
+
+    Triangle(){
+        l=0;
+        b=0;
+    }
+
+    Triangle(int l,int b){
+        this.l=l;
+        this.b=b;
+    }
     int area;
     @Override
-    public void getArea(int a,int b) {
-        area = a*b/2;
+    public void getArea() {
+        area = l*b/2;
     }
 
     @Override
@@ -33,12 +58,12 @@ class Triangle implements ShapeInterface{
 public class Q6 {
     public static void main(String[] args) {
 
-        Rectangle rectangle = new Rectangle();
-        rectangle.getArea(4,8);
+        Rectangle rectangle = new Rectangle(3,6);
+        rectangle.getArea();
         rectangle.toStrings();
 
-        Triangle triangle = new Triangle();
-        triangle.getArea(5,8);
+        Triangle triangle = new Triangle(3,7);
+        triangle.getArea();
         triangle.toStrings();
     }
 }
