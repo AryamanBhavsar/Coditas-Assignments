@@ -9,15 +9,24 @@ public class Q5 {
     public enum GREEN{GO};
     public enum YELLOW{DRIVE};
 
+    public enum signal{
+        STOP,
+        GO,
+        DRIVE_VERY_SLOW
+    }
+
 
     public static void main(String[] args) {
 
-        System.out.println("RED MEANS "+RED.valueOf("STOP"));
 
-        GREEN green = GREEN.GO;
-        System.out.println("GREEN MEANS "+green);
+        signal s1 = signal.STOP;
+        System.out.println("RED MEAN "+s1);
 
-        System.out.println("YELLOW MEANS "+YELLOW.valueOf("DRIVE"));
+        signal s = signal.GO;
+        System.out.println("GREEN MEAN "+s);
+
+        signal s2 = signal.DRIVE_VERY_SLOW;
+        System.out.println("YELLOW MEAN "+s2);
 
     }
 }
@@ -25,4 +34,4 @@ public class Q5 {
 //
 //        RED MEANS STOP
 //        GREEN MEANS GO
-//        YELLOW MEANS DRIVE
+//        YELLOW MEANS DRIVE_VERY_SLOW
