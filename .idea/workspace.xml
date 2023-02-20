@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5f4ed43-5af6-4e04-9220-ef173409037d" name="Changes" comment="Assignment-10 commit-8">
+    <list default="true" id="d5f4ed43-5af6-4e04-9220-ef173409037d" name="Changes" comment="Assignment-10 commit-9">
+      <change afterPath="$PROJECT_DIR$/src/Assignment_11/StringOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,13 +45,13 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.Q5">
-    <configuration name="Q4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_10.Q4" />
+  <component name="RunManager" selected="Application.StringOperations (3)">
+    <configuration name="StringOperations (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_11.StringOperations" />
       <module name="Java Assignments" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assignment_10.*" />
+          <option name="PATTERN" value="Assignment_11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,12 +59,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_10.Q5" />
+    <configuration name="StringOperations (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_11.StringOperations" />
       <module name="Java Assignments" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assignment_10.*" />
+          <option name="PATTERN" value="Assignment_11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q6 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_10.Q6" />
+    <configuration name="StringOperations (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_11.StringOperations" />
       <module name="Java Assignments" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assignment_10.*" />
+          <option name="PATTERN" value="Assignment_11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_10.Q6" />
+    <configuration name="StringOperations (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_11.StringOperations" />
       <module name="Java Assignments" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assignment_10.*" />
+          <option name="PATTERN" value="Assignment_11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_10.Q7" />
+    <configuration name="StringOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_11.StringOperations" />
       <module name="Java Assignments" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assignment_10.*" />
+          <option name="PATTERN" value="Assignment_11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Q5" />
-        <item itemvalue="Application.Q6 (1)" />
-        <item itemvalue="Application.Q6" />
-        <item itemvalue="Application.Q7" />
-        <item itemvalue="Application.Q4" />
+        <item itemvalue="Application.StringOperations (3)" />
+        <item itemvalue="Application.StringOperations (2)" />
+        <item itemvalue="Application.StringOperations (1)" />
+        <item itemvalue="Application.StringOperations" />
+        <item itemvalue="Application.StringOperations (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -325,11 +326,17 @@
       <option name="project" value="LOCAL" />
       <updated>1676547373014</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Assignment-10 commit-9">
+      <created>1676615307879</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1676615307879</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Second commit" />
     <MESSAGE value="final commit" />
     <MESSAGE value="Final commit with eight question" />
     <MESSAGE value="Assignment-7 commit-1" />
@@ -354,6 +361,7 @@
     <MESSAGE value="Assignment-10 commit-6" />
     <MESSAGE value="Assignment-10 commit-7" />
     <MESSAGE value="Assignment-10 commit-8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment-10 commit-8" />
+    <MESSAGE value="Assignment-10 commit-9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment-10 commit-9" />
   </component>
 </project>
