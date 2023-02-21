@@ -23,3 +23,10 @@ public class Q1 {
         }
 }
 }
+//
+//Output-
+//        Enter three names::
+//        Aryaman
+//        Abhay
+//        ram
+//        ram Abhay Aryaman

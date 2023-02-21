@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5f4ed43-5af6-4e04-9220-ef173409037d" name="Changes" comment="commit-3">
-      <change afterPath="$PROJECT_DIR$/src/Assignment_12/Q1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d5f4ed43-5af6-4e04-9220-ef173409037d" name="Changes" comment="commit-1">
+      <change afterPath="$PROJECT_DIR$/src/Assignment_12/Q2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignment_12/Q1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_12/Q1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +45,22 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Q1">
+  <component name="RunManager" selected="Application.Q2">
     <configuration name="Q1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignment_12.Q1" />
+      <module name="Java Assignments" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Assignment_12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_12.Q2" />
       <module name="Java Assignments" />
       <extension name="coverage">
         <pattern>
@@ -86,19 +99,6 @@
       </method>
     </configuration>
     <configuration name="Q4 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_11.Q4" />
-      <module name="Java Assignments" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Assignment_11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignment_11.Q4" />
       <module name="Java Assignments" />
       <extension name="coverage">
@@ -165,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q2" />
         <item itemvalue="Application.Q1" />
         <item itemvalue="Application.Q4 (3)" />
         <item itemvalue="Application.Q4 (2)" />
         <item itemvalue="Application.Q4 (1)" />
-        <item itemvalue="Application.Q4" />
       </list>
     </recent_temporary>
   </component>
@@ -427,7 +427,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676963780548</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="commit-1">
+      <created>1676967795878</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1676967795878</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -453,9 +460,9 @@
     <MESSAGE value="Assignment-10 commit-7" />
     <MESSAGE value="Assignment-10 commit-8" />
     <MESSAGE value="Assignment-10 commit-9" />
-    <MESSAGE value="commit-1" />
     <MESSAGE value="commit-2" />
     <MESSAGE value="commit-3" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit-3" />
+    <MESSAGE value="commit-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit-1" />
   </component>
 </project>
