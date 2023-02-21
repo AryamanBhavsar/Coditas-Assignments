@@ -42,4 +42,11 @@ class Student1 {
         methodcall2.invoke(student1);
     }
 }
-
+//
+//Output-
+//        The name of class is::Assignment_11.Student1
+//        Declared methods are::[public void Assignment_11.Student1.display()]
+//        Declared fields are::[private java.lang.String Assignment_11.Student1.name, private java.lang.String Assignment_11.Student1.midName, private int Assignment_11.Student1.id]
+//        Method of class
+//Aryaman
+//Bhavsar
