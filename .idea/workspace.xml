@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5f4ed43-5af6-4e04-9220-ef173409037d" name="Changes" comment="commit-2">
-      <change afterPath="$PROJECT_DIR$/src/Assignment_11/Q4.java" afterDir="false" />
+    <list default="true" id="d5f4ed43-5af6-4e04-9220-ef173409037d" name="Changes" comment="commit-3">
+      <change afterPath="$PROJECT_DIR$/src/Assignment_12/Q1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,13 +45,13 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Q4 (3)">
-    <configuration name="Q3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_11.Q3" />
+  <component name="RunManager" selected="Application.Q1">
+    <configuration name="Q1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_12.Q1" />
       <module name="Java Assignments" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Assignment_11.*" />
+          <option name="PATTERN" value="Assignment_12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q1" />
         <item itemvalue="Application.Q4 (3)" />
         <item itemvalue="Application.Q4 (2)" />
         <item itemvalue="Application.Q4 (1)" />
         <item itemvalue="Application.Q4" />
-        <item itemvalue="Application.Q3" />
       </list>
     </recent_temporary>
   </component>
@@ -420,11 +420,17 @@
       <option name="project" value="LOCAL" />
       <updated>1676961981971</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="commit-3">
+      <created>1676963780548</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1676963780548</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Assignment-7 commit-1" />
     <MESSAGE value="Assignment-7 commit-2" />
     <MESSAGE value="Assignment-7 commit-3" />
     <MESSAGE value="Assignment-7 commit-4" />
@@ -449,6 +455,7 @@
     <MESSAGE value="Assignment-10 commit-9" />
     <MESSAGE value="commit-1" />
     <MESSAGE value="commit-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit-2" />
+    <MESSAGE value="commit-3" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit-3" />
   </component>
 </project>
