@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5f4ed43-5af6-4e04-9220-ef173409037d" name="Changes" comment="commit-1">
-      <change afterPath="$PROJECT_DIR$/src/Assignment_11/Q1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Assignment_11/Q3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,20 +45,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Q1">
-    <configuration name="Q1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_11.Q1" />
-      <module name="Java Assignments" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Assignment_11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Q3">
     <configuration name="Q1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignment_11.Q1" />
       <module name="Java Assignments" />
@@ -72,8 +59,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringOperations (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_11.StringOperations" />
+    <configuration name="Q3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_11.Q3" />
       <module name="Java Assignments" />
       <extension name="coverage">
         <pattern>
@@ -85,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringOperations (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_11.StringOperations" />
+    <configuration name="Q3 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_11.Q3" />
       <module name="Java Assignments" />
       <extension name="coverage">
         <pattern>
@@ -98,8 +85,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringOperations (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_11.StringOperations" />
+    <configuration name="Q3 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_11.Q3" />
+      <module name="Java Assignments" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Assignment_11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment_11.Q3" />
       <module name="Java Assignments" />
       <extension name="coverage">
         <pattern>
@@ -165,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q3" />
+        <item itemvalue="Application.Q3 (3)" />
+        <item itemvalue="Application.Q3 (2)" />
+        <item itemvalue="Application.Q3 (1)" />
         <item itemvalue="Application.Q1" />
-        <item itemvalue="Application.Q1 (1)" />
-        <item itemvalue="Application.StringOperations (3)" />
-        <item itemvalue="Application.StringOperations (2)" />
-        <item itemvalue="Application.StringOperations (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -399,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676958667861</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="commit-1">
+      <created>1676960111001</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1676960111001</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
