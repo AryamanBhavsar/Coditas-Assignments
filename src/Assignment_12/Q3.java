@@ -17,3 +17,7 @@ public class Q3 {
 
     }
 }
+//
+//Output-
+//
+//        arymn

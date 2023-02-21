@@ -31,3 +31,6 @@ public class Q9 {
         System.out.println(employee);
     }
 }
+
+//output-
+//        Employee{id=101, name='Aryaman', address='Indore', salary=500000}
