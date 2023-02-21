@@ -1,4 +1,4 @@
-package Assignment_11;
+package StringOperations;
 
 class StringOps{
     public void display(){
