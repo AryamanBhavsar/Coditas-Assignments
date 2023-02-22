@@ -1,0 +1,8 @@
+Assertion in Java-
+
+Assertion in java is used to test your assumptions.You use assertion only
+when you think that condition would logically never go wrong. It throws an error which is 
+Assertion error. 
+
+Difference between assertion and exception is that we use assertion when we think that the given condition would never go wrong.
+But in case of exception, the thing might go wrong which might also depend upon the user inputs as well.
