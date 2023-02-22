@@ -4,3 +4,5 @@ Exception heirarchy comprises of the different exception files available in the 
 
 The parent class comprises of THROWABLE class which has EXCEPTION under which all the exceptions are present
 such as the NULL POINTER EXCEPTION or ARITHMETIC EXCEPTION.
+
+So, If we add the EXCEPTION class, All types of exceptions get handled within that particular block.
