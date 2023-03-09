@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5f4ed43-5af6-4e04-9220-ef173409037d" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/src/Assignment_17/Q1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_17/Q2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_17/Q3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_17/Q4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_17/Q5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SMS/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SMS/DuplicateStudentException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SMS/MarksNotInRangeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SMS/Operations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SMS/PrintResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SMS/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SMS/StudentManagementSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SMS/StudentNotExistException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CAS/CheckCapacity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CAS/CheckCapacity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,33 +65,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.Q5">
-    <configuration name="Q1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_17.Q1" />
-      <module name="Java Assignments" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Assignment_17.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_17.Q2" />
-      <module name="Java Assignments" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Assignment_17.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StudentManagementSystem">
     <configuration name="Q3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignment_17.Q3" />
       <module name="Java Assignments" />
@@ -129,13 +105,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SMS.Student" />
+      <module name="Java Assignments" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SMS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentManagementSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SMS.StudentManagementSystem" />
+      <module name="Java Assignments" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SMS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentManagementSystem" />
+        <item itemvalue="Application.Student" />
         <item itemvalue="Application.Q5" />
         <item itemvalue="Application.Q4" />
         <item itemvalue="Application.Q3" />
-        <item itemvalue="Application.Q2" />
-        <item itemvalue="Application.Q1" />
       </list>
     </recent_temporary>
   </component>
@@ -147,13 +149,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675752238331</updated>
-    </task>
-    <task id="LOCAL-00002" summary="First commit">
-      <created>1675752430163</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1675752430163</updated>
     </task>
     <task id="LOCAL-00003" summary="First commit">
       <created>1675752702642</created>
@@ -491,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677830593411</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="1">
+      <created>1678264640950</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1678264640950</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
