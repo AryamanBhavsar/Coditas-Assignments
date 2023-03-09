@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5f4ed43-5af6-4e04-9220-ef173409037d" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/src/SMS/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SMS/DuplicateStudentException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SMS/MarksNotInRangeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SMS/Operations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SMS/PrintResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SMS/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SMS/StudentManagementSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SMS/StudentNotExistException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SMS/Operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SMS/Operations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,13 +141,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675752238331</updated>
-    </task>
-    <task id="LOCAL-00003" summary="First commit">
-      <created>1675752702642</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1675752702642</updated>
     </task>
     <task id="LOCAL-00004" summary="Second commit">
       <created>1675752828903</created>
@@ -493,7 +478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678264640950</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="1">
+      <created>1678350094810</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1678350094810</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

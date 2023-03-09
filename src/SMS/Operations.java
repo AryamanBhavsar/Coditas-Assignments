@@ -34,9 +34,7 @@ public class Operations {
                 String address = sc.next();
                 Student s1 = new Student(rollNo, name, div, age, address);
                 l1.add(s1);
-
             }
-
         }
 
 
