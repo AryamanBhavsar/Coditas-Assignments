@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 public class Operations {
 
-    ArrayList<Customer> list = new ArrayList<Customer>();
+   public static ArrayList<Customer> list = new ArrayList<Customer>();
     //Scanner sc = new Scanner(System.in);
     BufferedReader sc = new BufferedReader(new InputStreamReader(System.in));
 
@@ -23,6 +23,7 @@ public class Operations {
         }
         System.out.println("Enter Name:");
         String name = sc.readLine();
+        name = name.substring(0,1).toUpperCase()+name.substring(1);
         System.out.println("Enter Address:");
         String address = sc.readLine();
         System.out.println("Enter Phone Number:");

@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5f4ed43-5af6-4e04-9220-ef173409037d" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_18/Q1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_18/Q5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BMS/AccountNotPresentException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BMS/BMS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BMS/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BMS/InsufficientBalanceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BMS/Operations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SMS/Operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SMS/Operations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BMS/BMS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BMS/BMS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BMS/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BMS/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BMS/Operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BMS/Operations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,19 +48,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "module"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;module&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.BMS">
     <configuration name="Assignment_18.Q5 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assignment_18.Q5" />
@@ -145,13 +139,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675752238331</updated>
-    </task>
-    <task id="LOCAL-00005" summary="final commit">
-      <created>1675757048718</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1675757048718</updated>
     </task>
     <task id="LOCAL-00006" summary="Final commit with eight question">
       <created>1675760999375</created>
@@ -489,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678350554898</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="1">
+      <created>1678699761503</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1678699761503</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

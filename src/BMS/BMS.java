@@ -3,6 +3,8 @@ package BMS;
 import java.io.IOException;
 import java.util.Scanner;
 
+import static BMS.Operations.list;
+
 public class BMS {
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
@@ -43,6 +45,7 @@ public class BMS {
                     System.out.println("Enter Valid input!!");
                     break;
             }
+            
         }
     }
 }

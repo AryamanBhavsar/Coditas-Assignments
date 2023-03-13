@@ -33,7 +33,7 @@ class Employee implements Comparable<Employee>{
 
     @Override
     public int compareTo(Employee o) {
-        return Integer.compare((int) this.salary, (int) o.salary);
+        return (int)(this.salary-o.salary);
     }
 }
 
@@ -65,10 +65,10 @@ public class Q5 {
         System.out.println();
 
 
-        List<Employee> highPaidEmployees = list.stream().filter(e -> e.getSalary() > 15000).sorted().collect(Collectors.toList());
-
         System.out.println("****EMPLOYEE WITH SALARY>15000****");
-        for (Employee e:highPaidEmployees) {
+        Collections.sort(list);
+        for (Employee e:list) {
+            if(e.salary>15000)
             System.out.println(e);
         }
         System.out.println();
