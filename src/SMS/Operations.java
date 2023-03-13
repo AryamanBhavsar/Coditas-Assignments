@@ -1,6 +1,8 @@
 package SMS;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Scanner;
 
 public class Operations {
@@ -40,9 +42,16 @@ public class Operations {
 
 
     public void displayStudents(){
+        Collections.sort(l1,new SortByRoll());
         for (Student i:l1) {
-            System.out.println(i);
+            System.out.println("------------------------------");
+            System.out.println("Name:      |  " + i.name);
+            System.out.println("Roll No:   |  " + i.rollNo);
+            System.out.println("Division:  |  "+ i.div);
+            System.out.println("Age     :  |  " + i.age);
+            System.out.println("-------------------------------");
         }
+
     }
 
     public void addStudentMarks() {
@@ -56,6 +65,7 @@ public class Operations {
 
             if (i.rollNo == rollNo1) {
                 System.out.println("Roll number found!");
+                System.out.println("Name:"+i.name);
                 present = true;
             }
         }
@@ -68,7 +78,7 @@ public class Operations {
                 return;
             }
         } else {
-            System.out.println("Enter marks of Student::");
+            System.out.println("Enter marks of English,Hindi,Maths,Physics,Chemistry::");
             for (int i = 0; i < 5; i++) {
                 int marks = sc.nextInt();
                 if (marks < 0 || marks > 100) {
@@ -109,5 +119,13 @@ public class Operations {
                 break;
             }
         }
+    }
+}
+
+class SortByRoll implements Comparator<Student>{
+
+    @Override
+    public int compare(Student o1, Student o2) {
+        return o1.rollNo-o2.rollNo;
     }
 }
