@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5f4ed43-5af6-4e04-9220-ef173409037d" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/src/Assignment_19/Q2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_19/Q3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_19/Q5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_19/Q6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_19/Stream_classes/BufferedOutputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_19/Stream_classes/ByteArrayOutputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_19/Stream_classes/FileDelete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_19/Stream_classes/FileInputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_19/Stream_classes/FileOutputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_19/Stream_classes/FileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_19/Stream_classes/SequenceInputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SMS_JDBC/DuplicateStudentException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SMS_JDBC/Operations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SMS_JDBC/StudentManagementSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SMS_JDBC/StudentNotExistException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Assignments.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java Assignments.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assignment_19/Q2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assignment_19/Q2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,20 +51,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/oditas/Downloads/mysql-connector-java-8.0.28.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;module&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "module"
     ]
   }
-}</component>
-  <component name="RunManager" selected="Application.Q2">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="SMS_JDBC" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.StudentManagementSystem">
     <configuration name="BMS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BMS.BMS" />
       <module name="Java Assignments" />
@@ -89,19 +93,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Assignment_19.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Assignment_18.Q3" />
-      <module name="Java Assignments" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Assignment_18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,13 +126,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudentManagementSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SMS_JDBC.StudentManagementSystem" />
+      <module name="Java Assignments" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SMS_JDBC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentManagementSystem" />
         <item itemvalue="Application.Q2" />
         <item itemvalue="Application.BMS" />
         <item itemvalue="Application.Q6" />
         <item itemvalue="Application.Q4" />
-        <item itemvalue="Application.Q3" />
       </list>
     </recent_temporary>
   </component>
@@ -153,13 +157,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675752238331</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Assignment-7 commit-2">
-      <created>1675848519280</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1675848519280</updated>
     </task>
     <task id="LOCAL-00009" summary="Assignment-7 commit-3">
       <created>1675851816960</created>
@@ -497,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678718876337</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="1">
+      <created>1678807158638</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1678807158638</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

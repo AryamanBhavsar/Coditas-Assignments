@@ -17,6 +17,7 @@ public class Q2 {
         fos1.write(b);
         fos2.write(c);
 
+        FileOutputStream newFile = new FileOutputStream("result.txt");
         FileInputStream fis1 = new FileInputStream("abc.txt");
         FileInputStream fis2 = new FileInputStream("xyz.txt");
 
@@ -24,7 +25,14 @@ public class Q2 {
 
         int i=0;
         while((i=sis.read())!=-1){
-            System.out.print((char)i);
+            newFile.write((char)i);
+        }
+
+        FileInputStream newfis = new FileInputStream("result.txt");
+        int j=0;
+
+        while ((j=newfis.read())!=-1){
+            System.out.print((char)j);
         }
 
     }
