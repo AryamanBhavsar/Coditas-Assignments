@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5f4ed43-5af6-4e04-9220-ef173409037d" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/src/Assignment_23/Question_1/Connectivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_23/Question_1/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_23/Question_1/EmployeeOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_23/Question_2/Connectivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_23/Question_2/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assignment_23/Question_2/StudentOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BMS/InsufficientBalanceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BMS/InsufficientBalanceException.java" afterDir="false" />
-    </list>
+    <list default="true" id="d5f4ed43-5af6-4e04-9220-ef173409037d" name="Changes" comment="1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -158,13 +149,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675752238331</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Assignment-7 commit-4">
-      <created>1675853645678</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1675853645678</updated>
     </task>
     <task id="LOCAL-00011" summary="Assignment-7 commit-5">
       <created>1675853982561</created>
@@ -502,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678963132297</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="1">
+      <created>1679728659275</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1679728659275</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
