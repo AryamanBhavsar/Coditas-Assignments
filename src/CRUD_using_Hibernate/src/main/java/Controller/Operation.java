@@ -67,33 +67,37 @@ public class Operation {
         Session session = sessionFactory.openSession();
         Transaction transaction = session.beginTransaction();
 
-        int info1;
-
         System.out.println("Enter ID:");
         int id = Integer.parseInt(sc.readLine());
-        System.out.println("What you want to Update? (name,age,standard)");
-        String change = sc.readLine();
-        System.out.println("Enter Information:");
+        System.out.println("Enter Updated => (name,age,standard)");
+     //   String change = sc.readLine();
 
-        String info = sc.readLine();
+        StudentSchool studentSchool = session.get(StudentSchool.class,id);
+        studentSchool.setName(sc.readLine());
+        studentSchool.setAge(Integer.parseInt(sc.readLine()));
+        studentSchool.setStandard(Integer.parseInt(sc.readLine()));
+
+        session.saveOrUpdate(studentSchool);
+        transaction.commit();
+        session.close();
 
 
-        try {
-            Query query = session.createQuery("update StudentSchool set "+change+" = :newInfo where id = :studentID");
-            query.setParameter("newInfo", info);
-            query.setParameter("studentID", id);
-            int result = query.executeUpdate();
-            transaction.commit();
-        }
-        catch (Exception e) {
-            if (transaction != null) {
-                transaction.rollback();
-            }
-            e.printStackTrace();
-        }
-        finally {
-            session.close();
-        }
+//        try {
+//            Query query = session.createQuery("update StudentSchool set "+change+" = :newInfo where id = :studentID");
+//            query.setParameter("newInfo", info);
+//            query.setParameter("studentID", id);
+//            int result = query.executeUpdate();
+//            transaction.commit();
+//        }
+//        catch (Exception e) {
+//            if (transaction != null) {
+//                transaction.rollback();
+//            }
+//            e.printStackTrace();
+//        }
+//        finally {
+//            session.close();
+//        }
 
     }
 
