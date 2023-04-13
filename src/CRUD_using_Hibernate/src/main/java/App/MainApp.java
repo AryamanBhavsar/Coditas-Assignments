@@ -13,6 +13,7 @@ public class MainApp {
     public static void main(String[] args) throws IOException {
         BufferedReader  sc = new BufferedReader(new InputStreamReader(System.in));
         boolean flag = true;
+        List<StudentSchool> l;
 
         while (flag){
             System.out.println("0.EXIT");
@@ -20,6 +21,9 @@ public class MainApp {
             System.out.println("2.Retrieve");
             System.out.println("3.Update");
             System.out.println("4.Delete");
+            System.out.println("5.Fetch by Restrictions");
+            System.out.println("6.Fetch by Order");
+            System.out.println("7.Fetch by Projection");
             int choice = Integer.parseInt(sc.readLine());
 
             switch (choice){
@@ -51,6 +55,35 @@ public class MainApp {
 
                 case 4:
                     Operation.DeleteUser();
+                    break;
+
+                case 5:
+                    System.out.println("Enter age so that criteria to be applied");
+                    int age = Integer.parseInt(sc.readLine());
+                    l = Operation.fetchByRestriction(age);
+
+                    for(StudentSchool s:l){
+                        System.out.println(s);
+                    }
+                    break;
+
+                case 6:
+                    System.out.println("Which column? (age,standard)");
+                    String column = sc.readLine();
+                    System.out.println("Asc or Desc?");
+                    String order = sc.readLine();
+
+                    l = Operation.fetchByOrder(order,column);
+
+                    for(StudentSchool s:l){
+                        System.out.println(s);
+                    }
+
+
+                    break;
+
+                case 7:
+                   Operation.singleprojection();
                     break;
 
                 default:

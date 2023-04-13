@@ -1,10 +1,12 @@
 package Controller;
 
 import DAO.StudentSchool;
+import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
+import org.hibernate.criterion.*;
 
 import javax.persistence.Query;
 import java.io.BufferedReader;
@@ -117,6 +119,47 @@ public class Operation {
 
         session.close();
 
+    }
+
+    public static List<StudentSchool> fetchByRestriction(int age){
+        Session session = configuration.buildSessionFactory().openSession();
+        Criteria criteria = session.createCriteria(StudentSchool.class);
+        criteria.add(Restrictions.gt("age",age));
+
+        return criteria.list();
+    }
+
+    public static List<StudentSchool> fetchByOrder(String order,String pn) {
+        Session session = configuration.buildSessionFactory().openSession();
+        Criteria criteria = session.createCriteria(StudentSchool.class);
+
+        if(order.equalsIgnoreCase("asc")){
+            criteria.addOrder(Order.asc(pn));
+        } else if (order.equalsIgnoreCase("desc")) {
+            criteria.addOrder(Order.desc(pn));
+        }
+
+        return criteria.list();
+    }
+
+    public static void singleprojection() throws IOException {
+        Session session = sessionFactory.openSession();
+        Transaction tx = session.beginTransaction();
+
+        System.out.print("Enter property name to fetch records: ");
+        String propertyName = sc.readLine();
+
+        Criteria criteria = session.createCriteria(StudentSchool.class);
+        criteria.setProjection(Projections.property(propertyName));
+
+        List<Object> result = criteria.list();
+
+        for (Object price : result) {
+            System.out.println("property Name: " + result);
+        }
+
+        tx.commit();
+        session.close();
     }
 
 }
