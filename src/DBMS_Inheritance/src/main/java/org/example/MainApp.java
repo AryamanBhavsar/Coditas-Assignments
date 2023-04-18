@@ -10,8 +10,13 @@ public class MainApp {
         Configuration configuration = new Configuration().configure();
         SessionFactory sessionFactory = configuration.buildSessionFactory();
 
-        Employee e1 = new Employee(1,"Aryaman");
+        Employee e1 = new Employee();
+        e1.setId(1);
+        e1.setName("Aniket");
+
         PartTimeEmp e2 = new PartTimeEmp(2,"Shyam",500,30);
+
+
         FullTimeEmp e3 = new FullTimeEmp(3,"Ganesh",25000,400,12);
 
         Session session = sessionFactory.openSession();
