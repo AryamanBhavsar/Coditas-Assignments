@@ -36,7 +36,7 @@ public class GenerateBill extends HttpServlet {
 
         List<Product> products = new ArrayList<Product>();
 
-        Query query = session.createQuery("from Product P where P.id=:id")
+        Query query = session.createQuery("from Product P where P.customer.id=:id")
                 .setParameter("id",id);
         products = query.getResultList();
         int total=0;
@@ -45,7 +45,7 @@ public class GenerateBill extends HttpServlet {
         }
 
 
-        out.println("Your bill is Rs."+total);
+        out.println("<h1>Your bill is Rs."+total+"</h1>");
         RequestDispatcher rd = req.getRequestDispatcher("customerlogin.html");
         rd.include(req,resp);
 
