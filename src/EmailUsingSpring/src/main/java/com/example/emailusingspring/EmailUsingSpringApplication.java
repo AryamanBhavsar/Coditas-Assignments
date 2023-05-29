@@ -20,9 +20,9 @@ public class EmailUsingSpringApplication {
     @EventListener(ApplicationReadyEvent.class)
     public void triggerEmail() throws MessagingException {
         emailSenderService.sendMailWithAttachment("aarti.dhumal@coditas.com",
-                "This is a demo from Spring boot sent by Aryaman. Also check the attachment which I have added using Spring boot.",
-                "Spring Boot Email by Aryaman",
-                "C:/Users/Aryaman Bhavsar/Desktop/Resume Latest.pdf");
+                "This is a demo from Spring boot sent by Aryaman. Also check the attachment which I have added using Spring boot. This is the SRS document of our project.",
+                "Spring Boot Email by Aryaman and Sujan",
+                "D:/Coditas/Software Requirement Specification.docx","sujan.shaikh@coditas.com");
 
 
     }

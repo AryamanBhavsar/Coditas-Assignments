@@ -19,7 +19,8 @@ public class EmailSenderService {
     public void sendMailWithAttachment(String toEmail,
                                        String body,
                                        String subject,
-                                       String attachment) throws MessagingException {
+                                       String attachment,
+                                       String cc) throws MessagingException {
 
 
         MimeMessage mimeMessage = javaMailSender.createMimeMessage();
@@ -29,6 +30,7 @@ public class EmailSenderService {
         mimeMessageHelper.setTo(toEmail);
         mimeMessageHelper.setText(body);
         mimeMessageHelper.setSubject(subject);
+        mimeMessageHelper.setCc(cc);
 
 
         FileSystemResource fileSystemResource = new FileSystemResource(new File(attachment));
